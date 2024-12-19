@@ -49,6 +49,8 @@
     margin-bottom: 25px;
     color: #494949;
 }
+
+
 #gta-texts label{
     margin: 0 5px;
 }
@@ -104,4 +106,8 @@ input[type="radio"]{
     accent-color: rgb(239, 79, 95);
     cursor: pointer;
     vertical-align: middle;
+  }
+
+  #gta-texts label:hover{
+        cursor: pointer;
   }
