@@ -94,18 +94,31 @@ nav #right-nav span{
 }
 
 #input #city{
+    align-items: center;
+    display: flex;
     border-right: 2px solid #cfcfcf;
     margin-right: 10px;
     padding-right: 10px;
 }
 #input #city input{
+    font-size: 14px;
+    margin-left: 10px;
     margin-right: 10px;
     border: none;
     outline: none;
 }
 
-#input #restaurant span{
-    color: #96837d;
+#input #restaurant{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#input #restaurant input{
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    outline: none;
 }
 
 #restaurant .fa-magnifying-glass{
@@ -169,22 +182,6 @@ nav #right-nav span{
   #para p{
     color: #4f4f4f;
   }
-
-  /* HOVER ANIMATIONS */
-
-
-  /* #option:hover{
-    cursor: pointer;
-      transform: scale(1.05);
-    transition: ease-in-out;
-    transition-duration: 0.5s;
-
-
-  }
-  p:hover{
-    cursor: context-menu;
-  } */
-
 
   /* COLLECTION */
 
